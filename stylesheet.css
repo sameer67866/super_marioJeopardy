@@ -1,0 +1,81 @@
+body {
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+#control, #All, #puzzlearea {
+        width: 400px;
+}
+
+#control {
+        padding-top: 20px;
+        text-align: center;
+}
+
+h1 {
+        margin: 15px 0px;
+        text-align: center;
+}
+
+#All {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.celebrate {
+	text-align: center;
+	animation: txt 7s ease-out infinite normal;
+}
+@keyframes txt{
+	0%{
+		transform:scale(0.9);
+	}
+	25%{
+		transform:scale(2);
+	}
+	70%{
+		transform:scale(0.9);
+	}
+	100%{
+		transform:scale(0.9);
+	}
+}
+
+#puzzlearea {
+        font-family: sans-serif;
+        font-size: 44pt;
+        height: 500px;
+        padding: 0px;
+        position: relative;
+		cursor: pointer;
+}
+
+.puzzlepiece {
+        background-image: url(super-mario.jpg);
+        border: 5px solid black;
+        height: 100px;
+        line-height: 100px;
+        position: absolute;
+        text-align: center;
+        vertical-align: middle;
+        width: 100px;
+}
+.puzzlepiecehover {
+        border-color: red;
+        color: #006600;
+        font-weight: bold;
+        text-decoration: underline;
+}
+
+#w3c {
+        text-align: right;
+}
+
+#w3c img {
+        border: none;
+}
+
+.super-mario { background: url("super-mario.jpg"); }
+.luigi       { background: url("luigi.jpg");       }
+.bowser      { background: url("bowser.jpg");      }
+.toad        { background: url("toad.jpg");        }
